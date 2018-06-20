@@ -1,0 +1,131 @@
+body{
+
+}
+.alert{
+  display: none;
+}
+.mostrar{
+  display: block;
+}
+.ocultar{
+  display: none;
+}
+.borda{
+  border: 2px solid red;
+}
+.square {
+  border-radius: 0 !important;
+}
+.jumbotron { 
+  background-color: #32CD32; /* Orange */
+  color: #ffffff;
+  margin: 0;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+.thumbnail {
+  padding: 0 0 15px 0;
+  border-radius: 2px;
+  height: 400px; 
+}
+.panel {
+  margin-right:20px;
+  margin-left :20px; 
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border :groove grey 1px;
+}
+.panel-default>.panel-heading {
+  background-color: #f5f5f5;
+}
+.hv{
+  border :groove grey 1px;
+}
+.baixo {
+  max-height:80px; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  border: 0px;
+}
+.col-sm-4 a {
+  text-decoration:none;
+}
+
+.thumbnail > img{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+  max-height:240px;
+  border-bottom: solid grey 1px;
+}
+.containerm{
+  background: white;
+  padding: 20px;
+}
+.container-fluid{
+  margin: 0;
+  background: #f4f4f4;
+}
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+}
+
+
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+  }
+  }/*fazer acontecer*/
+  .row{
+    margin: 60px 50px;
+  }
+  .navcor{
+    background-color: #2d2d30;
+    opacity:0.9;
+  }
+  .project_cover{
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  body {margin:0;}
+
+  .topnav {
+    overflow: hidden;
+    background-color: #f5f5f5;
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+  }
+
+  .topnav a:hover {
+    border-bottom: 3px solid blue;
+  }
+
+  .topnav a.active {
+    border-bottom: 3px solid blue;
+  }
+  /*fazer thumbnail mudar ao colocar mouse em cima */
+  .hv:hover {
+    box-shadow: 2px 2px 30px DarkGreen;
+  }
+
+  .hv-footer .btn:hover {
+    border: 10px solid #f4511e;
+    background-color: #fff !important;
+    color: #f4511e;
